@@ -1,0 +1,19 @@
+.headerdiv {
+    padding-left: 30px;
+    border: 8px outset black;
+    background-color:  yellow;    
+    text-align: left;
+}
+.menudiv {
+    border: 5px outset black;
+    background-color: black;
+    text-align: right;
+    font-size:25px;
+}
+.origamiimgdiv {
+    border: 4px outset black;
+}
+.origamidesc{
+    font-size: 20px;
+    
+}
