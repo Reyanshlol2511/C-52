@@ -5,15 +5,27 @@
     text-align: left;
 }
 .menudiv {
-    border: 5px outset black;
-    background-color: black;
-    text-align: right;
+    border: 15px outset rebeccapurple;
+    background-color: white;
     font-size:25px;
+    display:flex;
+    justify-content: space-between;
+}
+.origamidiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .origamiimgdiv {
     border: 4px outset black;
+    
+}
+.origamititle {
+    padding-left: 50px;
 }
 .origamidesc{
+    padding-left: 90px;
+    display: flex;
+    justify-content: space-around;
     font-size: 20px;
-    
 }
