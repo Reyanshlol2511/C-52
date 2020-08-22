@@ -1,11 +1,14 @@
 .headerdiv {
     padding-left: 30px;
     border: 8px outset black;
-    background-color:  yellow;    
+    background-color:  yellow;
+    color: blue;
+    text-shadow: 0px 0px 2px black;
     text-align: left;
+    font-family: Arial;
 }
 .menudiv {
-    border: 15px outset rebeccapurple;
+    border: 12px outset royalblue;
     background-color: white;
     font-size:25px;
     display:flex;
@@ -14,18 +17,35 @@
 .origamidiv{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 35px
 }
 .origamiimgdiv {
-    border: 4px outset black;
+    border: 7px inset rebeccapurple;
     
 }
 .origamititle {
     padding-left: 50px;
+    padding-right: 60px;
+    font-family: Georgia;
 }
 .origamidesc{
     padding-left: 90px;
+    background-image: url(https://wallpapercave.com/wp/vhgYQou.jpg);
+    color: white;
+    padding-top: 75px;
+    padding-right: 70px;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+    font-family: cursive;
+}
+.origamiimgdiv:hover{
+    transform: scale(1.25)
+}
+a:link{
+    color:yellow
+}
+a:visited{
+    color:green
 }
